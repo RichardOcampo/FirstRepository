@@ -404,3 +404,58 @@ h2 {
     bottom: 290px;
     padding: 6px;
 }
+
+@media (max-width: 600px) {
+    ul {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        left: 22px;
+    }
+
+    h1 {
+        font-size: 5vh;
+        left: 32%;
+    }
+
+    .contacto:not(Contact) {
+        display: none;
+    }
+
+    .slider {
+        height: 51%;
+        position: absolute;
+        left: 127px;
+        top: 661px;
+        margin: 0;
+        width: 34%;
+    }
+
+    .parrafo {
+        margin: 0;
+        font-size: 0;
+        z-index: -1;
+    }
+
+    hr {
+        top: 735px;
+    }
+
+    .down {
+        top: 351px;
+        width: 57%;
+    }
+    
+
+    .img1  {
+        left: 18%;
+    }
+
+    .img3  {
+        left: 18%;
+    }
+
+    .img2  {
+        left: 18%;
+    }
+}
